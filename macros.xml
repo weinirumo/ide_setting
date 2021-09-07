@@ -1,0 +1,7 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="ts">
+      <typing text-keycode="515:1;84:0;72:0;73:0;83:0;45:0">$this-</typing>
+    </macro>
+  </component>
+</application>
