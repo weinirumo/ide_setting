@@ -3,4 +3,13 @@
     <option name="FONT_SIZE" value="18" />
     <option name="SECONDARY_FONT_FAMILY" value="Droid Sans Mono" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" useCustomColors="true" pattern="\bhack\b.*">
+      <option name="FOREGROUND" value="2cc0a2" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+  </component>
 </application>
