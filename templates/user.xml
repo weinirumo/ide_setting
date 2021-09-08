@@ -46,5 +46,8 @@
   <template name="rii" value="intval($request-&gt;input('$param$', $default$));" description="get the intval of request" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="default" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
   </template>
 </templateSet>
