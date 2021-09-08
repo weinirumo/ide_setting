@@ -36,7 +36,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="rp" value="$page = $request-&gt;input(&quot;page&quot;, 1);&#10;$pageSize = $request-&gt;input(&quot;pageSize&quot;, AppConst::PAGE_SIZE);" description="request get page info" toReformat="true" toShortenFQNames="true">
+  <template name="rp" value="$page = intval($request-&gt;input(&quot;page&quot;, 1));&#10;$pageSize = intval($request-&gt;input(&quot;page_size&quot;, AppConst::PAGE_SIZE));" description="request get page info" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
