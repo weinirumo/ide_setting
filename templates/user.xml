@@ -50,4 +50,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="rik" value="$keyword      = $request-&gt;input('keyword', '');" description="request" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
