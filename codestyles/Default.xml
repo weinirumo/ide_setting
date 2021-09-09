@@ -6,6 +6,6 @@
     <option name="ALIGN_ASSIGNMENTS" value="true" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="PHP">
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
   </codeStyleSettings>
 </code_scheme>
