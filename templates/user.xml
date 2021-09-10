@@ -24,9 +24,9 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="&lt;abbreviation&gt;" value="public function saveAdvanced(Request $request)&#10;    {&#10;&#10;    }" description="" toReformat="true" toShortenFQNames="true">
+  <template name="lll" value="PHP_EOL" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP Class Member" value="true" />
+      <option name="PHP" value="true" />
     </context>
   </template>
   <template name="ri" value="$request-&gt;input('$var$', $default$);" description="request input" toReformat="true" toShortenFQNames="true">
@@ -54,6 +54,11 @@
     <context>
       <option name="PHP Expression" value="true" />
       <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="pel" value="PHP_EOL" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
     </context>
   </template>
 </templateSet>
