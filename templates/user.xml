@@ -56,7 +56,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="pel" value="PHP_EOL" toReformat="true" toShortenFQNames="true">
+  <template name="pel" value="PHP_EOL" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
